@@ -1,0 +1,45 @@
+.section {
+  min-height: 100vh;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  max-width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Optional: color each section differently */
+.home {
+  background-color: #f8f9fa;
+}
+.services {
+  background-color: #e9ecef;
+}
+.features {
+  background-color: #dee2e6;
+}
+.pricing {
+  background-color: #ced4da;
+}
+.team {
+  background-color: #adb5bd;
+}
+.blog {
+  background-color: #6c757d;
+  color: white;
+}
+.contact {
+  background-color: #ced4da;
+  color: white;
+}

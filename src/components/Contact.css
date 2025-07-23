@@ -1,0 +1,120 @@
+.contact {
+  padding: 4rem 2rem;
+  background: #c0deffb5;
+  text-align: center;
+  background-image: url("C:\Users\Hamid Ch\landing-page\public\contact 5.jpg"); /* Fixed background image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  text-align: left;
+}
+
+.contact-left {
+  flex: 1 1 55%;
+}
+
+.contact-right {
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* Center horizontally */
+  text-align: center;        /* Center text */
+}
+
+.contact-info h3 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.contact-info p {
+  margin: 0.4rem 0;
+  color: #ffffff;
+}
+
+.contact-form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #575757;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Follow Us & Social Icons */
+.contact-right h3 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;   /* Center icons */
+  margin-top: 1rem;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+  }
+
+  .contact-form {
+    align-items: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+  }
+}
